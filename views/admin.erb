@@ -1,0 +1,21 @@
+<h1>Вход в аккаунт</h1>
+
+<h2><%= @admin %></h2>
+<h2><%= @user %></h2>
+
+<p> <%=@name%> </p>
+<p> <%=@password%> </p>
+
+<form action="/admin" method="post">
+
+  <div class="form_group">
+    <input type="text" name="user">
+  </div>
+
+  <div class="form-goup">
+    <input type="text" name="password">
+  </div>
+
+  <button type="submit">submit</button>
+
+</form>
